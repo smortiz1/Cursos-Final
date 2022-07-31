@@ -1,0 +1,156 @@
+/*seccion del encabezado*/
+.caja-general{
+    background-color: #E8E8E8;
+    width: 37.5rem;
+    height: 81.2rem;
+
+    margin: auto;
+}
+
+.imagen{
+    width: 37.5rem;
+    height: 32rem;
+}
+
+.url-de-imagen{
+    width: 37.5rem;
+    height: 32rem;
+    background-color:#DFDFDF;
+}
+
+.url-de-imagen img{
+    width: 37.5rem;
+    height: 32rem;
+    object-fit: cover;
+}
+
+
+.titulo{
+    width: 37.5rem;
+    height: 9rem;
+}
+
+.titulo h1{
+    padding-left: 2rem;
+    padding-top: 3rem;
+    margin-right: 1rem;
+
+    color: #8D8C8C;
+}
+
+.autor{
+    width: 37.5rem;
+    height: 4rem;
+
+    display: table-cell; vertical-align: middle;
+}
+
+.autor p{
+    padding-left: 2rem;
+    font-size: 1.4rem;
+
+    color: #8D8C8C;
+}
+
+.seccion-de-likes-com{
+    width: 37.5rem;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.likes{
+    width: 8rem;
+    height: 3.6rem;
+    margin-top: 0.2rem;
+    margin-left: 3rem;
+
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 0.4rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #8D8C8C;
+}
+
+.likes img{
+    margin: 0.2rem 0 0 0.5rem;
+    height: 2.4rem;
+}
+
+.likes p{
+    margin: 0.4rem 0 0 0.3rem;
+    font-size: 1.6rem;
+    color: #8D8C8C;
+}
+
+.comentario{
+    width: 12rem;
+    height: 3.6rem;
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 0.4rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #8D8C8C;
+}
+
+.comentario img{
+    margin: 0.5rem 0 0 1rem;
+    height: 2rem;
+}
+
+.comentario p{
+    margin: 0.4rem 0 0 0.3rem;
+    font-size: 1.6rem;
+    color: #8D8C8C;
+}
+
+.descripcion{
+    width: 37.5rem;
+    height: 29.2rem;
+}
+
+.descripcion p{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+
+    color: #8D8C8C;
+}
+
+
+.footer{
+    width: 37.5rem;
+    height: 3.2rem;
+    background-color: #D8D8D8;
+
+    position: sticky;
+    bottom: 0rem;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.home, .nav, .search, .comments, .notif{
+    width: 6rem;
+    height: 3.2rem;
+    text-align: center;
+    padding-top: 0.6rem;
+}
+
+.home img, .nav img, .search img, .comments img, .notif img{
+    width: 2rem;
+    height: 2rem;
+
+    margin: 1;
+}
